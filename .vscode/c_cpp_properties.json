@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "${VULKAN_SDK}/Include"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Program Files/LLVM/bin/clang++.exe",
+            "cppStandard": "c++23",
+            "defines": []
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}",
+                "${VULKAN_SDK}/Include"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Program Files/LLVM/bin/clang++.exe",
+            "cppStandard": "c++23",
+            "defines": [
+                // "RELEASE"
+            ]
+        }
+    ],
+    "version": 4
+}
